@@ -1,0 +1,156 @@
+Inhoud van de les
+
+	
+OPBOUW IF ELSE IFELSE
+	if(expressie)
+	{
+		statements;
+	}
+
+	elseif(expressie)
+	{
+		statements;
+	}
+
+	else
+	{
+		statements voor al de rest
+	}
+
+
+ALTERNATIEVE SCHRIJFWIJZE  (begin maar met de andere!)
+	if(expressie):
+		statements;
+	elseif(expressie):
+		statements;
+	else:
+		statements;
+	endif;
+
+
+LET OP VOOR = en ==
+
+	if($spaargeld == 2500)
+	{
+		echo("die nieuwe pc komt eraan");
+	}
+	else
+	{
+		echo ("nog even sparen");
+	}
+
+
+SWITCH LUS
+	switch ( ) lus
+	er volgt een loop totdat aan de voorwaarde is voldaan
+	#######  een switch case altijd beëindigen met break!!##########
+	een default sluit de switch af (en de {} sluiten ook af)
+
+WHILE LUSSEN
+	while (expressie)
+	{
+		statements;
+	}
+
+Dubbele quotes geven een waarde; enkele quotes gaan de tekst letterlijk invoegen
+
+
+DO WHILE LUSSEN
+	do
+	{
+	statements;
+	}
+		while(expressie):
+	{
+
+	}
+
+	Dient wanneer er iets gedaan moet worden alvorens er aan voorwaarden moet worden voldaan
+
+
+FOR LUS
+	for(teller; voorwaarde; tellerbewerking)
+	{
+		statements;
+	}
+
+
+
+SLEUTELWOORDEN
+	break;			code stopt na dit commando, ook handig voor foutopsporing
+	continue;		voert code uit (ook al wordt niet aan de voorwaarde voldaan) en gaat verder
+
+
+	exit();
+	die();
+
+
+FUNCTIES
+	verzameling code
+	ingebouwde functies ==> echo(), exit(), unset();
+	zelf te bepalen ==> optellen(), printrij(), check_mail();
+	externe bibliotheken ==> grafiek, pdf, 
+
+	==>functie bepalen met functiebepaling
+	==> functie aanroepen met functieaanroepinging
+
+	optellen (parameters, attributen, properties)
+	optellen ($a, $b)
+
+	Bepalen van een nieuwe functie
+	function name($name)   => mag niet beginnen met een cijfer, verder letters cijfers en underscore
+		-->lowerCamelCase -> notatie
+	functies zijn CASE INSENSITIVE!!
+		function functienaam($parameter1, $parameter2)
+			{
+			//code binnen de functie
+			}
+			Meestal worden functies in 1 bestand samen gezet en included of required per pagina
+
+	AANROEPEN van een functie
+
+		$variable = functienaam($parameter1, $parameter2);
+
+	Een functie definiëren is niet voldoende, de functie moet worden aangeroepen om uitgevoerd te worden.
+	één functie = één output -> return
+
+
+	Scope = bereikbaarheid van variabelen
+
+	func_num_args() -> aantal argumenten
+	func_get_arg(nr)
+	func_get_args()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
